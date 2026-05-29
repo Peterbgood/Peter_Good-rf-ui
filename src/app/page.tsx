@@ -4,6 +4,7 @@ import '../styles/main.scss';
 export default function Home() {
   return (
     <div className="dashboard-container">
+      
       <div className="utility-rail">
         <div className="top-icons">
           <div className="mini-rf-logo">
@@ -103,14 +104,28 @@ export default function Home() {
           <div className="step-container">
             <h3><strong>Step 2:</strong> Build registration workflows.</h3>
             <div className="grid-cards-three-col">
-              {[1, 2, 3].map((i) => (
-                <div key={i} className="workflow-card">
-                  <h4>
-                    <span className="card-icon">↳</span> Attendee Registration
-                  </h4>
-                  <p>Start by creating a general registration workflow</p>
-                </div>
-              ))}
+              
+              <div className="workflow-card">
+                <h4>
+                  <span className="card-icon">↳</span> Attendee Registration
+                </h4>
+                <p>Start by creating a general registration workflow</p>
+              </div>
+
+              <div className="workflow-card">
+                <h4>
+                  <span className="card-icon">↳</span> Attendee Registration
+                </h4>
+                <p>Start by creating a general registration workflow</p>
+              </div>
+
+              <div className="workflow-card">
+                <h4>
+                  <span className="card-icon">↳</span> Attendee Registration
+                </h4>
+                <p>Start by creating a general registration workflow</p>
+              </div>
+
               <div className="workflow-card add-card">
                 <span className="plus-icon">🞦</span>
                 <p>Add Registration Workflow</p>
