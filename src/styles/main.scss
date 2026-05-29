@@ -1,20 +1,7 @@
 // src/styles/main.scss
 
-// ==========================================
-// CONFIGURATION TOKENS
-// ==========================================
-$purple-primary: #6315d9; 
-$purple-light: #f3ebff;   
-$text-dark: #0f172a;      
-$text-muted: #64748b;     
-$bg-light: #f8fafc;       
-$border-color: #e2e8f0;   
-$font-family: 'Inter', system-ui, -apple-system, sans-serif;
-$font-weight-regular: 400;
-$font-weight-medium: 500;
-$font-weight-semibold: 600;
-$mobile-breakpoint: 768px;
-$desktop-max-width: 1440px;
+// Import the variables file so all tokens are available
+@import 'variables'; 
 
 // ==========================================
 // CORE RESETS
