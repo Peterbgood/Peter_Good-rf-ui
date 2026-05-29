@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import "../styles/main.scss"; // <-- ADD THIS LINE
+import "../styles/main.scss";
 
 export const metadata: Metadata = {
   title: "RainFocus Summit Challenge",

@@ -1,11 +1,5 @@
-// src/styles/main.scss
+@import 'variables';
 
-// Import the variables file so all tokens are available
-@import 'variables'; 
-
-// ==========================================
-// CORE RESETS
-// ==========================================
 * {
   box-sizing: border-box;
   margin: 0;
@@ -26,9 +20,6 @@ body {
   width: 100%;
 }
 
-// ==========================================
-// 1. FAR LEFT RAIL STYLING
-// ==========================================
 .utility-rail {
   width: 60px;
   background-color: #ffffff;
@@ -121,9 +112,6 @@ body {
   }
 }
 
-// ==========================================
-// 2. SECONDARY NAVIGATION PANEL STYLING
-// ==========================================
 .nav-panel {
   width: 200px;
   background-color: #ffffff;
@@ -220,9 +208,6 @@ body {
   }
 }
 
-// ==========================================
-// 3. MAIN WORKSPACE CONTENT SYSTEM
-// ==========================================
 .main-content {
   flex: 1;
   background-color: #ffffff;
@@ -389,7 +374,7 @@ body {
     gap: 8px;
 
     .card-icon {
-      color: #6315d9;
+      color: $purple-primary;
       font-size: 16px;
       font-weight: bold;
       transform: translateY(-1px);
@@ -422,15 +407,12 @@ body {
 
     .plus-icon {
       font-size: 20px;
-      color: #6315d9; 
+      color: $purple-primary; 
       margin-bottom: 4px;
     }
   }
 }
 
-// ==========================================
-// RESPONSIVE REORDERING
-// ==========================================
 @media (max-width: 1024px) {
   .grid-cards-three-col {
     grid-template-columns: repeat(2, 1fr);

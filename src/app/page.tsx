@@ -1,12 +1,9 @@
-// src/app/page.tsx
 import React from 'react';
 import '../styles/main.scss';
 
 export default function Home() {
   return (
     <div className="dashboard-container">
-      
-      {/* 1. FAR LEFT SLIM UTILITY RAIL */}
       <div className="utility-rail">
         <div className="top-icons">
           <div className="mini-rf-logo">
@@ -22,7 +19,6 @@ export default function Home() {
         </div>
       </div>
 
-      {/* 2. SECONDARY NAVIGATION PANEL */}
       <aside className="nav-panel">
         <div className="sidebar-header">
           <h3>RainFocus Summit</h3>
@@ -60,7 +56,6 @@ export default function Home() {
         </nav>
       </aside>
 
-      {/* 3. MAIN WORKSPACE CONTENT */}
       <main className="main-content">
         <header className="content-header">
           <div className="header-title-block">
@@ -87,7 +82,6 @@ export default function Home() {
             <h2>Attendee</h2>
           </div>
 
-          {/* Step 1 */}
           <div className="step-container">
             <h3><strong>Step 1:</strong> Base settings.</h3>
             <div className="full-width-card">
@@ -106,7 +100,6 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Step 2 */}
           <div className="step-container">
             <h3><strong>Step 2:</strong> Build registration workflows.</h3>
             <div className="grid-cards-three-col">
@@ -125,7 +118,6 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Step 3 */}
           <div className="step-container">
             <h3><strong>Step 3:</strong> Design post-registration experiences.</h3>
             <div className="grid-cards-three-col">

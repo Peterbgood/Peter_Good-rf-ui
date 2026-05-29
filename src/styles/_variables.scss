@@ -1,20 +1,15 @@
-// src/styles/_variables.scss
-
-// Brand Colors
 $purple-primary: #6315d9; 
 $purple-light: #f3ebff;   
-$text-dark: #1e293b;      // Switched to a cleaner slate gray-dark
-$text-muted: #64748b;     // Muted slate gray for subtitles/steps
+$text-dark: #1e293b;      
+$text-muted: #64748b;     
 $bg-light: #f8fafc;       
 $border-color: #e2e8f0;   
 
-// Typography
 $font-family: 'Inter', system-ui, -apple-system, sans-serif;
 $font-weight-regular: 400;
 $font-weight-medium: 500;
 $font-weight-semibold: 600;
 
-// Layout & Breakpoints
 $sidebar-width: 260px;
 $mobile-breakpoint: 768px;
 $desktop-max-width: 1440px;
